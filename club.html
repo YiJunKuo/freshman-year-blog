@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>社團活動</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+		<style>
+			body {background-image:url(images/club.gif); background-attachment:scroll; background-repeat:round}
+			h1 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			h2 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			h3 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			span {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			p {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			label {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+	</style>
+  </head>
+  <body>
+  <!--導覽列-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<!--導覽列的頁首-->
+				<div class="nabvar-header">
+					<a class="navbar-brand" href="index.html" style="color:white">Blog</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					
+					<span class="sr-only">導覽按鈕</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					
+					</button>
+				</div>
+				<!--導覽列的項目-->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="ative"><a href="index.html">首頁</a></li>
+						<li class="dropdown">
+							<a href="post.html" class="dropdown-toggle" data-toggle="dropdown" role="button">貼文
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="oceantrash.html">想推薦之網頁</a></li>
+								<li><a href="bootstrapclass.html">Bootstrapd課程內容</a></li>
+								<li><a href="club.html">社團活動</a></li>
+								<li><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">關於</a></li>
+						<li><a href="contact.html">聯絡</a></li>
+					</ul>
+					
+					<form class="navbar-form navbar-right">
+						<div class="form-group has-feedback">
+							<input type="search" class="form-control" placeholder="輸入關鍵字"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+						<button type="submit" class="btn btn-outline-success">搜尋</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+			</div>
+		
+		<header>
+			<div class="container" style="background:white; padding:1% 5%">
+				<h1>MV舞蹈社</h1>
+           <p class="lead">離放假還有幾天，在大學的快樂時光，莫過於社團活動了</p>
+			</div>
+		</header>
+		<hr>
+		<!--內容區-->
+		<div class="container">
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>BOSS第一次驗收</h2>
+				</div>
+				<div class="panel-body">
+					<p>為了社內聖誕趴，準備了帥氣爆表的男舞。</p>
+
+						<img src="images/boss1.jpg" class="img-responsive" width="32%">
+
+					<!-- 觸發互動視窗的按鈕 -->
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#1">voideo</button>
+				</div>
+			</div>
+			
+			<!-- 互動視窗 -->
+      <div class="modal fade" id="1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h3 class="modal-title">BOSS</h3>
+            </div>
+			
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="images/1208.mp4">
+								</iframe>
+							</div>
+							
+            </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>BOSS第二次驗收</h2>
+				</div>
+				<div class="panel-body">
+					<p>離表演越來越近，既緊張又期待><</p>
+					<img src="images/boss2.jpg" class="img-responsive" width="32%">
+					<img src="images/boss3.jpg" class="img-responsive" width="32%">
+					<img src="images/boss4.jpg" class="img-responsive" width="32%">
+					<!-- 觸發互動視窗的按鈕 -->
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#2">voideo</button>
+				</div>
+			</div>
+			
+			<!-- 互動視窗 -->
+      <div class="modal fade" id="2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h3 class="modal-title">BOSS</h3>
+            </div>
+			
+            <div class="modal-body">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="images/1216.mp4">
+							</iframe>
+						</div>	
+            </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>HOW YOU LIKE THAT第二次驗收</h2>
+				</div>
+				<div class="panel-body">
+					<p>除了NCT，還有第一次麵包節的BLACKPINK!!</p>
+					<img src="images/sogo.jpg" class="img-responsive" width="32%">
+					<!-- 觸發互動視窗的按鈕 -->
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#3">voideo</button>
+				</div>
+			</div>
+			
+			<!-- 互動視窗 -->
+      <div class="modal fade" id="3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h3 class="modal-title">HOW YOU LIKE THAT</h3>
+            </div>
+			
+            <div class="modal-body">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="images/1216_.mp4">
+							</iframe>
+						</div>
+            </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>《元聲物種 》聖誕演唱會</h2>
+				</div>
+				<div class="panel-body">
+					<p>就算舞台超小，也要超常發揮!!</p>
+						<img src="images/group.jpg" class="img-responsive" width="32%">
+						<img src="images/boss5.jpg" class="img-responsive" width="32%">
+					<!-- 觸發互動視窗的按鈕 -->
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#4">voideo</button>
+				</div>
+			</div>
+			
+			<!-- 互動視窗 -->
+      <div class="modal fade" id="4" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h3 class="modal-title">BOSS</h3>
+            </div>
+			
+            <div class="modal-body">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="images/1223.mp4">
+							</iframe>
+						</div>
+            </div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--頁尾-->
+		<footer>
+			<div class="container" style="color:black">
+			
+				<p>&copy; 2020 Blog&middot;<a href="#">隱私權條款</a>&middot;<a href="#">服務條款</a></p>
+				
+			</div>
+		</footer>	
+		
+		<p class="text-center"><a href="club.html"><mark>Back to top</mark></a></p>
+  </body>
+</html>

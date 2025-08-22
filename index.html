@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首頁</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+		<style>
+			body {background-image:url(images/bg.jpg); background-attachment:f; background-repeat:round}
+			h1 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			h2 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			h3 {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			span {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			p {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			label {font-family: 'Noto Sans TC', sans-serif; font-family: 'Noto Serif TC', serif;}
+			a:hover {color:purple}
+	</style>
+  </head>
+  <body>
+  <!--導覽列-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<!--導覽列的頁首-->
+				<div class="nabvar-header">
+					<a class="navbar-brand" href="index.html" style="color:white">Blog</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					
+					<span class="sr-only">導覽按鈕</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					
+					</button>
+				</div>
+				<!--導覽列的項目-->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="ative"><a href="index.html">首頁</a></li>
+						<li class="dropdown">
+							<a href="post.html" class="dropdown-toggle" data-toggle="dropdown" role="button">貼文
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="oceantrash.html">想推薦之網頁</a></li>
+								<li><a href="bootstrapclass.html">Bootstrapd課程內容</a></li>
+								<li><a href="club.html">社團活動</a></li>
+								<li><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">關於</a></li>
+						<li><a href="contact.html">聯絡</a></li>
+					</ul>
+					
+					<form class="navbar-form navbar-right">
+						<div class="form-group has-feedback">
+							<input type="search" class="form-control" placeholder="輸入關鍵字"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+						<button type="submit" class="btn btn-outline-success">搜尋</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+			</div>
+		</nav>
+		
+		<header>
+			<div class="container">
+				<img src="images/headstick.jpg" width="10%" height="10%" class="img-circle">
+				<h1 ><strong>Jun's Blog</strong></h1>
+				<p class="lead">歡迎來到我的網站！</p>	
+			</div>
+		</header>
+
+  
+  <!--內容區-->
+	<div class="container"  style="background:white; padding:1% 5%">
+	<!--左側邊欄-->
+	<div class="col-xs-3 col-sm-3 col-md-3">
+		<div class="panel" style="border:double">
+			<div class="panel-heading"  style="border-bottom:dotted">
+				<h3 class="text-center"><b>我的貼文</b></h3>
+			</div>
+			<div class="panel-body">
+				<p style="font-size:20px"><a href="oceantrash.html">想推薦之網頁</a></p>
+				<p style="font-size:20px"><a href="bootstrapclass.html">Bootstrapd課程內容</a></p>
+				<p style="font-size:20px"><a href="club.html">社團活動</a></p>
+				<p style="font-size:20px"><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></p>
+			</div>
+		</div>
+		<div class="panel" style="border:double">
+			<div class="panel-heading"  style="border-bottom:dotted">
+				<h3 class="text-center"><b>我的關注</b></h3>
+			</div>
+		<div class="thumbnail">
+      <button type="button" class="btn" data-toggle="tooltip" data-placement="left" title="MV舞蹈社">
+				<a href="https://www.instagram.com/yzu_mv_dance_cover/"><img src="images/club.jpg" width="60%" class="img-circle"></a>
+			</button>
+		</div>
+		<div class="thumbnail">
+      <button type="button" class="btn" data-toggle="tooltip" data-placement="left" title="那些電影教會我的事">
+				<a href="https://www.youtube.com/channel/UCt8mg-YL_ikTAJKuZ8GMtqg"><img src="images/movie.jpg" width="60%" class="img-circle"></a>
+			</button>
+		</div>
+		<div class="thumbnail">
+      <button type="button" class="btn" data-toggle="tooltip" data-placement="left" title="志祺七七 X 圖文不符">
+				<a href="https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw"><img src="images/77.jpg" width="60%" class="img-circle"></a>
+			</button>
+		</div>
+		</div>
+    <script>
+	  $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+	</script>	
+	</div>
+	<!--文章-->
+	<article>
+		<div class="col-xs-6 col-sm-6 col-md-6" style="border:double">
+			<div class="thumbnail">
+				<img src="images/post1.gif">
+				<p>你知道什麼是海廢嗎?不知道的話，你可以點擊read more查看更多!!</p>
+				<p><a href="oceantrash.html" class="btn" style="border:outset" role="button">read more</a></p>
+				<hr>
+				<img src="images/post2.gif">
+				<p>期中考得太差，希望這次期末考就回來，不要被當。</p>
+				<p><a href="bootstrapclass.html" class="btn" style="border:outset" role="button">read more</a></p>
+				<hr>
+				<img src="images/post3.gif">
+				<p>上大學後，社團活動是少不了的!!</p>
+				<p><a href="club.html" class="btn" style="border:outset" role="button">read more</a></p>
+				<hr>
+				<img src="images/post4.gif">
+				<p>童年啊童年啊!!<br>
+				想當初我還是電視兒童。</p>
+				<p><a href="https://6100677.wixsite.com/my-site-3" class="btn" style="border:outset" role="button">read more</a></p>
+			</div>
+			
+		</div>
+	</article>
+	
+	<!--右側邊欄-->
+	<div class="col-xs-3 col-sm-3 col-md-3">
+		<table class="table" style="background:white">
+		<caption>December 2020</caption>
+			<thead>
+				<tr>
+					<th scope="col" title="Monday">M</th>
+					<th scope="col" title="Tuesday">T</th>
+					<th scope="col" title="Wednesday">W</th>
+					<th scope="col" title="Thursday">T</th>
+					<th scope="col" title="Friday">F</th>
+					<th scope="col" title="Saturday">S</th>
+					<th scope="col" title="Sunday">S</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="2" class="pad">&nbsp;</td>
+					<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+				</tr>
+				<tr>
+					<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+				</tr>
+				<tr>
+					<td class="warning">13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+				</tr>
+				<tr>
+					<td>20</td><td>21</td><td class="success">22</td><td class="success">23</td><td>24</td><td class="danger">25</td><td class="success">26</td>
+				</tr>
+				<tr>
+					<td>27</td><td>28</td><td class="danger">29</td><td>30</td><td  class="danger">31</td>
+				<td class="pad" colspan="2">&nbsp;</td>
+				</tr>
+			</tbody>	
+		</table>
+	</div>
+
+  <!--頁尾-->	
+  <div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<footer>
+				<div id="carousel" class="carousel slide">
+					<!--輪播指示-->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+					</ol>
+					<!--輪播內容-->
+					<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/carousel.jpg">
+						<div class="carousel-caption">
+							<h1 class="text-center">
+							<p style="color:black">Life is like a movie, it’s only as exciting as how you see and what you feel about it.</p><br>
+							Life is like a movie, it’s only as exciting as how you see and what you feel about it.<br>
+							<br><p style="font-size:12px">"Lessons from Movies"</p>
+							<p style="color:black">Life is like a movie, it’s only as exciting as how you see and what you feel about it.</p>
+							</h1>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/carousel.jpg">
+						<div class="carousel-caption">
+							<h1 class="text-center">
+							<p style="color:black">Every heart needs love, needs to be gentle, generous, needs to understand.</p><br>
+							Every heart needs love, needs to be gentle, generous, needs to understand.<br>
+							<br><p style="font-size:12px">"Les Choristes"</p>
+							<p style="color:black">Every heart needs love, needs to be gentle, generous, needs to understand.</p>
+							</h1>
+						</div>
+					</div>
+					<div class="item">
+					<img src="images/carousel.jpg">
+						<div class="carousel-caption">
+							<h1 class="text-center">
+							<p style="color:black">Hope is a good things, maybe the best of things, and no good things ever dies.</p><br>
+							Hope is a good things, maybe the best of things, and no good things ever dies.<br>
+							<br><p style="font-size:12px">"The Shawshank Redemption"</p>
+							<p style="color:black">Hope is a good things, maybe the best of things, and no good things ever dies.</p>
+							</h1>
+						</div>
+					</div>
+				</div>
+				<!--輪播控制-->
+				<a class="carousel-control left" href="#carousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a class="carousel-control right" href="#carousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			<div class="container" style="color:black">
+				<p>&copy; 2020 Blog&middot;<a href="#">隱私權條款</a>&middot;<a href="#">服務條款</a></p>
+			</div>
+			<p class="text-center"><a href="index.html"><mark>Back to top</mark></a></p>
+			</footer>
+			
+		</div>
+  </div>
+	</div>
+		
+  </body>
+</html>

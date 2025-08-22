@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>關於</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+		<style>
+			body {background-image:url(images/about.jpg); background-attachment:scroll}
+			h1 {font-family: 'Noto Serif TC', serif; }
+			h2 {font-family: 'Noto Serif TC', serif;}
+			h3 {font-family: 'Noto Serif TC', serif;}
+			span {font-family: 'Noto Serif TC', serif;}
+			p {font-family: 'Noto Serif TC', serif;}
+			a:hover {color:purple}
+		</style>
+  </head>
+  <body>
+		<nav class="navbar navbar-inverse navbar-expand-md fixed-top"><!--<nav class="navbar navbar-default">-->
+			<div class="container-fluid">
+				<div class="nabvar-header">
+				<a class="navbar-brand" href="index.html">Blog</a>
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">導覽按鈕</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="ative"><a href="index.html">首頁</a></li>
+						<li class="dropdown">
+							<a href="post.html" class="dropdown-toggle" data-toggle="dropdown" role="button">貼文
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="oceantrash.html">想推薦之網頁</a></li>
+								<li><a href="bootstrapclass.html">Bootstrapd課程內容</a></li>
+								<li><a href="club.html">社團活動</a></li>
+								<li><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">關於</a></li>
+						<li><a href="contact.html">聯絡</a></li>
+					</ul>
+					
+					<form class="navbar-form navbar-right">
+						<div class="form-group has-feedback">
+							<input type="search" class="form-control" placeholder="輸入關鍵字"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+						<button type="submit" class="btn btn-outline-success">搜尋</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+			</div>
+		</nav>
+		
+    <div class="container"  style="background:white; margin:5% 10%">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading" >
+            <h1><strong>關於我的網站</strong></h1>
+						<span class="subheading">我的網站內容及架構。</span>
+						<p>我想要做個自己的部落格，放上自己喜歡的事物。</p>
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="panel-group" id="1">
+	  <img src="images/post5.jpg" class="center-block" width="85%">
+			<div class="panel panel-danger">
+					<div class="panel-heading">
+						<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse1" data-toggle="collapse" data-parent="#1"><strong>首頁</strong></a></h2>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<p style="text-align:center">
+								從首頁進入，會看見導覽列有四個連結、一個搜尋欄，<br>
+								Blog、首頁、貼文、關於、聯絡，<br>
+								首頁下方分為四個區塊，左側欄、內容文章、右側欄、輪播，<br>
+								左側欄有其他內容的連結，喜歡的頻道以及社團IG，使用了彈出提示；<br>
+								文章內容有貼文大綱引導訪客查看內容；<br>
+								右側欄有日期行程，有關報告日期、表演日期、生日；<br>
+								輪播的部分放了自己喜歡的句子。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse2" data-toggle="collapse" data-parent="#2"><strong>貼文</strong></a></h2>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<p style="text-align:center">
+								貼文分為四個想推薦之網站、Bootstrap課內容、社團活動、懷舊復古，<br>
+								想推薦之網站使用分頁導欄、摺疊效果，去說明介紹海廢圖鑑，<br>
+								Bootstrap課內容使用頁內連結，需要查看任意主題點擊即可，<br>
+								社團活動使用互動視窗，點擊查看影片，<br>
+								懷舊復古使用老師介紹的網頁模板，因為懷念小時候的回憶，<br>
+								就把它放上來了。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse3" data-toggle="collapse" data-parent="#3"><strong>關於</strong></a></h2>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<p style="text-align:center">
+								關於我使用摺疊效果，有助於方便觀看。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse4" data-toggle="collapse" data-parent="#4"><strong>聯絡</strong></a></h2>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<p style="text-align:center">
+								聯絡我做了表單，如果有任何意見，可以填寫並寄給我。
+							</p>
+						</div>
+					</div>
+				</div>
+    </div>
+  </div>
+	<div class="container" style="color:black">
+				<p>&copy; 2020 Blog&middot;<a href="#">隱私權條款</a>&middot;<a href="#">服務條款</a></p>
+			</div>
+			<p class="text-center"><a href="about.html"><mark>Back to top</mark></a></p>
+			</footer>
+  </body>
+</html>

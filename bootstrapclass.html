@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrapd課程</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+		body {background-image:url(images/bootstrap.jpg); background-attachment:scroll; background-repeat:round}
+		h1 {font-family: 'Noto Serif TC', serif;}
+		h2 {font-family: 'Noto Serif TC', serif;}
+		h3 {font-family: 'Noto Serif TC', serif;}
+		span {font-family: 'Noto Serif TC', serif;}
+		p {font-family: 'Noto Serif TC', serif;}
+		label {font-family: 'Noto Serif TC', serif;}
+	</style>
+	</head>
+  <body>
+  <!--導覽列-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<!--導覽列的頁首-->
+				<div class="nabvar-header">
+					<a class="navbar-brand" href="index.html" style="color:white">Blog</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">導覽按鈕</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!--導覽列的項目-->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="ative"><a href="index.html">首頁</a></li>
+						<li class="dropdown">
+							<a href="post.html" class="dropdown-toggle" data-toggle="dropdown" role="button">貼文
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="oceantrash.html">想推薦之網頁</a></li>
+								<li><a href="bootstrapclass.html">Bootstrapd課程內容</a></li>
+								<li><a href="club.html">社團活動</a></li>
+								<li><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">關於</a></li>
+						<li><a href="contact.html">聯絡</a></li>
+					</ul>
+					
+					<form class="navbar-form navbar-right">
+						<div class="form-group has-feedback">
+							<input type="search" class="form-control" placeholder="輸入關鍵字"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+						<button type="submit" class="btn btn-outline-success">搜尋</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		
+		<!--頁首-->
+		<header>
+			<div class="container" style="background:white; padding:1% 5%">
+				<h1>Bootstrapd課程內容</h1>
+           <p class="lead">期中考後的課程內容</p>
+			</div>
+		</header>
+  <!--內容區-->
+  <hr>
+	<div class="container">
+		<div class="row">
+			<!--文章-->
+			<article>
+				<div class="col-sm-8 col-sm-push-3"  style="background:white; padding:1% 5%">
+					<div class="bd-example">
+					<h3 id="1" style="font-weight:700; font-family: 'Noto Serif TC', serif;">linear-gradient()線性漸層、radial-gradient()放射狀漸層</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+						<h1 style="background:linear-gradient(to top, yellow, lightgreen)">春曉</h1>
+						<h1 style="background:linear-gradient(to top right, red, white, blue)">送別</h1>
+						<h1 style="background:linear-gradient(yellow 0%, orange 100%)">紅豆</h1>
+						<h1 style="background:radial-gradient(circle, white, lightgreen)">春曉</h1>
+						<h1 style="background:radial-gradient(red, yellow, lightgreen)">送別</h1>
+						<h1 style="background:radial-gradient(farthest-side at 60% 55%, white, orange, yellow, lightgreen)">紅豆</h1>
+						</div>
+					</div>
+					<div >
+						&lt;h1 style="background:linear-gradient(to top, yellow, lightgreen)">春曉&lt;/h1><br>
+						&lt;h1 style="background:linear-gradient(to top right, red, white, blue)">送別&lt;/h1><br>
+						&lt;h1 style="background:linear-gradient(yellow 0%, orange 100%)">紅豆&lt;/h1><br>
+						&lt;h1 style="background:radial-gradient(circle, white, lightgreen)">春曉&lt;/h1><br>
+						&lt;h1 style="background:radial-gradient(red, yellow, lightgreen)">送別&lt;/h1><br>
+						&lt;h1 style="background:radial-gradient(farthest-side at 60% 55%, white, orange, yellow, lightgreen)">紅豆&lt;/h1>
+					</div>
+					<div style="background:white; color:blue">
+						<p>黃色、淺綠色由下往上漸層</p>
+						<p>紅白藍三色由左漸層</p>
+						<p>起點為黃色、終點為橘色兩色漸層</p>
+						<p>以圓形放射狀，中心點白色，變化綠色放射狀</p>
+						<p>以圓形放射狀，中心點紅色到黃色，變化綠色放射狀</p>
+						<p>farthest-side at 60% 55%，水平60%垂直55%變化</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="2" style="font-weight:700; font-family: 'Noto Serif TC', serif;">邊界、留白、框線屬性</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+						<p style="background:lightgreen; margin:1cm 2cm; border-bottom:dashed 10px orange">相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬萊此去無多路，青鳥殷勤為探看。</p>
+						<p style="background:lightgreen; margin:1cm 2cm; padding:1cm 2cm">相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬萊此去無多路，青鳥殷勤為探看。</p>
+						<p style="background:lightgreen; border:dotted 5px yellow">錦瑟無端五十弦，一弦一柱思華年。莊生曉夢迷蝴蝶，望帝春心托杜鵑。滄海月明珠有淚，藍田日暖玉生煙。此情可待成追憶，只是當時已惘然。</p>
+					</div>
+					</div>
+					<div>
+						&lt;p style="background:lightgreen; margin:1cm 2cm; border-bottom:dashed 10px orange">相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬萊此去無多路，青鳥殷勤為探看。&lt;/p><br>
+						&lt;p style="background:lightgreen; margin:1cm 2cm; padding:1cm 2cm">相見時難別亦難，東風無力百花殘。春蠶到死絲方盡，蠟炬成灰淚始乾。曉鏡但愁雲鬢改，夜吟應覺月光寒。蓬萊此去無多路，青鳥殷勤為探看。&lt;/p><br>
+						&lt;p style="background:lightgreen; border:dotted 5px yellow">錦瑟無端五十弦，一弦一柱思華年。莊生曉夢迷蝴蝶，望帝春心托杜鵑。滄海月明珠有淚，藍田日暖玉生煙。此情可待成追憶，只是當時已惘然。&lt;/p><br>
+					</div>
+					<div style="background:white; color:blue">
+						<p>此段落的上下邊界為1cm、左右邊界為2cm，下框線設定為虛線、寬度10像素、橘色</p>
+						<p>此段落的上下留白為1cm、左右留白為2cm</p>
+						<p>四周框限設定為點線、寬度5像素、黃色</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="3" style="font-weight:700; font-family: 'Noto Serif TC', serif;">文繞圖屬性</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+						<img src="images/white.jpg" width="300" style="float:right">
+						<h1>白水先生作品</h1>
+						<p>白水先生是20世紀末期奧地利知名畫家、雕塑家，原名Friedrich Stowasser，其作品遍及繪畫、建築物外觀、服裝、旗標、郵票設計等領域。</p>
+						<p style="clear:right">白水先生的作品具有強烈的個人色彩，以非直線的線條、繽紛亮麗的色彩和大膽的造型為主要藝術特徵。</p>
+					</div>
+					</div>
+					<div >
+						&lt;img src="images\white.jpg" width="300" style="float:right"><br>
+						&lt;h1>白水先生作品&lt;/h1><br>
+						&lt;p>白水先生是20世紀末期奧地利知名畫家、雕塑家，原名Friedrich Stowasser，其作品遍及繪畫、建築物外觀、服裝、旗標、郵票設計等領域。&lt;/p><br>
+						&lt;p style="clear:right">白水先生的作品具有強烈的個人色彩，以非直線的線條、繽紛亮麗的色彩和大膽的造型為主要藝術特徵。&lt;/p>
+					</div>
+					<div style="background:white; color:blue">
+						<p>圖片靠右文繞圖</p>
+						<p>圖片靠右文繞圖，但清除第二段右邊繞圖的動作</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="4" style="font-weight:700; font-family: 'Noto Serif TC', serif;">垂質對齊屬性</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+						<div>
+							<img src="images\disney.jpg" style="width:200px">東京迪士尼
+						</div>
+						<div>
+							<img src="images\disney.jpg" style="width:200px">
+							<p style="display:inline; font-size:20px; vertical-align:top">東京迪士尼</p>
+						</div>
+						<div>
+							<img src="images\disney.jpg" style="width:200px">
+							<p style="display:inline; font-size:20px; vertical-align:bottom">東京迪士尼</p>
+						</div>
+						<div>
+							<img src="images\disney.jpg" style="width:200px">
+							<p style="display:inline; font-size:20px; vertical-align:100px">東京迪士尼</p>
+						</div>
+					</div>
+					</div>
+					<div>
+						&lt;div><br>
+							&lt;img src="images\disney.jpg" style="width:200px">東京迪士尼<br>
+						&lt;/div><br>
+						&lt;div><br>
+							&lt;img src="images\disney.jpg" style="width:200px"><br>
+							&lt;p style="display:inline; font-size:20px; vertical-align:top">東京迪士尼&lt;/p><br>
+						&lt;/div><br>
+						&lt;div><br>
+							&lt;img src="images\disney.jpg" style="width:200px"><br>
+							&lt;p style="display:inline; font-size:20px; vertical-align:bottom">東京迪士尼&lt;/p><br>
+						&lt;/div><br>
+						&lt;div><br>
+							&lt;img src="images\disney.jpg" style="width:200px"><br>
+							&lt;p style="display:inline; font-size:20px; vertical-align:100px">東京迪士尼&lt;/p><br>
+						&lt;/div>
+					</div>
+					<div style="background:white; color:blue">
+						<p>無預設</p>
+						<p>文字對齊區塊的上緣</p>
+						<p>文字對齊區塊的下緣</p>
+						<p>文字垂直位移100px</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="5" style="font-weight:700; font-family: 'Noto Serif TC', serif;">Box陰影屬性</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+						<h1 style="background:lightpink; box-shadow:10px 10px 5px lightgray">春曉</h1>
+						<h1 style="background:lightgreen; box-shadow:10px 10px lightgray, 20px 20px 20px lightyellow">送別</h1>
+					</div>
+					</div>
+					<div>
+						&lt;h1 style="background:lightpink; box-shadow:10px 10px 5px lightgray">春曉&lt;/h1><br>
+						&lt;h1 style="background:lightgreen; box-shadow:10px 10px lightgray, 20px 20px 20px lightyellow">送別&lt;/h1>
+					</div>
+					<div style="background:white; color:blue">
+						<p>此標題有一層陰影</p>
+						<p>此標題有兩層陰影</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="7" style="font-weight:700; font-family: 'Noto Serif TC', serif;">Bootstrap 網頁的架構</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<head>
+							<meta charset="utf-8">
+							<meta http-equiv="X-UA-Compatible" content="IE=edge">
+							<meta name="viewport" content="width=device-width, initial-scale=1">
+							<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+							<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">  
+							<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+						</head>
+						<body>
+							<h1>Hello, World!</h1>
+						</body>
+					</div>
+					</div>
+					<div>
+						&lt;head><br>
+							&lt;meta charset="utf-8"><br>
+							&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"><br>
+							&lt;meta name="viewport" content="width=device-width, initial-scale=1"><br>
+							&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><br>
+							&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"><br>  
+							&lt;script src="https://code.jquery.com/jquery-3.2.1.min.js">&lt;/script><br>
+							&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">&lt;/script><br>
+						&lt;/head><br>
+						&lt;body><br>
+							&lt;h1>Hello, World!&lt;/h1><br>
+						&lt;/body>
+					</div>
+					<div style="background:white; color:blue">
+						<p>IE瀏覽器</p>
+						<p>裝置上一比一、控制背景版面</p>
+						<p>引用bootstrap核心</p>
+						<p>引用bootstrap畫面排版佈景主題</p>
+						<p>引用bootstrap、3.3.7版本會更新，往後需更改</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="8" style="font-weight:700; font-family: 'Noto Serif TC', serif;">網格系統</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div >
+						<img src="images/BS2.jpg" class="img-responsive">
+						<img src="images/BS2phone.jpg" class="img-responsive">
+					</div>
+					</div>
+					<div>
+						&lt;style><br>
+							div [class|="col"] {background-color:#EBDEF0; border:0.5px solid purple}<br>
+						&lt;/style><br>
+						&lt;/head><br>
+						&lt;body><br>
+							&lt;div class="container-fluid"><br>
+							&lt;div class="row"><br>
+								&lt;div class="col-sm-8">區塊1&lt;/div><br>
+								&lt;div class="col-sm-4">區塊2&lt;/div><br>
+							&lt;/div><br>
+							&lt;/div><br>
+						&lt;/body>
+					</div>
+					<div style="background:white; color:blue">
+						<p>最外層是容器</p>
+						<p>中間曾是row(列)</p>
+						<p>最內層是column(欄)</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="8" style="font-weight:700; font-family: 'Noto Serif TC', serif;">設定容器類別</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div >
+						<img src="images/BS4.jpg" class="img-responsive">
+						<img src="images/BS4phone.jpg" class="img-responsive">
+					</div>
+					</div>
+					<div>
+						&lt;style><br>
+							div [class|="col"] {background-color:#EBDEF0; border:0.5px solid purple}<br>
+						&lt;/style><br>
+						&lt;/head><br>
+						&lt;body><br>
+							&lt;div class="container"><br>
+							&lt;div class="row"><br>
+								&lt;div class="col-md-8 col-xs-12">區塊1&lt;/div><br>
+								&lt;div class="col-md-4 col-xs-6">區塊2&lt;/div><br>
+							&lt;/div><br>
+							&lt;/div><br>
+						&lt;/body><br>
+					&lt;/div>
+					<div style="background:white; color:blue">
+						<p>CSS樣式表設定區塊的背景顏色與框線</p>
+						<p>使用.container-fluid容器類別</p>
+					</div>
+					<hr>
+					<div class="bd-example">
+					<h3 id="9" style="font-weight:700; font-family: 'Noto Serif TC', serif;">設定電腦、平板與手機的網頁版面</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<img src="images/BS5.jpg" class="img-responsive">
+						<img src="images/BS5phone.jpg" class="img-responsive">
+					</div>
+					</div>
+					<div>
+						&lt;style><br>
+							div [class|="col"] {background-color:#EBDEF0; border:0.5px solid purple}<br>
+						&lt;/style><br>
+						&lt;/head><br>
+						&lt;body><br>
+							&lt;div class="container"><br>
+							&lt;div class="row"><br>
+								&lt;div class="col-md-4 col-sm-12 col-xs-12">區塊1&lt;/div><br>
+								&lt;div class="col-md-4 col-sm-6 col-xs-12">區塊2&lt;/div><br>
+								&lt;div class="col-md-4 col-sm-6 col-xs-12">區塊3&lt;/div><br>
+							&lt;/div><br>
+							&lt;/div><br>
+						&lt;/body>
+					</div>
+					<div style="background:white; color:blue">
+						<p>區塊1.col-md-4、.col-sm-12和.col-xs-12三個類別</p>
+						<p>區塊2.col-md-4、.col-sm-6和.col-xs-12三個類別</p>
+						<p>區塊3.col-md-4、.col-sm-6和.col-xs-12三個類別</p>
+					</div>
+				</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="10" style="font-weight:700; font-family: 'Noto Serif TC', serif;">調整column的位移</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div >
+						<img src="images/BS6.jpg" class="img-responsive">
+						<img src="images/BS6phone.jpg" class="img-responsive">
+					</div>
+					</div>
+					<div>
+						&lt;style><br>
+							div [class|="col"] {background-color:#EBDEF0; border:0.5px solid purple}<br>
+						&lt;/style><br>
+						&lt;/head><br>
+						&lt;body><br>
+							&lt;div class="container"><br>
+							&lt;div class="row"><br>
+								&lt;div class="col-sm-4">區塊1&lt;/div><br>
+								&lt;div class="col-sm-4 col-sm-offset-4">區塊2&lt;/div><br>
+							&lt;/div><br>
+							&lt;div class="row"><br>
+								&lt;div class="col-sm-4 col-sm-offset-1">區塊3&lt;/div><br>
+								&lt;div class="col-sm-4">區塊4&lt;/div><br>
+							&lt;/div><br>
+							&lt;/div><br>
+						&lt;/body>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>使用.coll-*-offset-*類別調整column的位移</p>
+						<p>設定區塊2占用4個column且向右移4個column</p>
+						<p>設定區塊3占用4個column且向右移1個column</p>
+					</div>
+				</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="11" style="font-weight:700; font-family: 'Noto Serif TC', serif;">調整column的順序</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div >
+						<img src="images/BS7.jpg" class="img-responsive">
+						<img src="images/BS7phone.jpg" class="img-responsive">
+					</div>
+					</div>
+					<div>
+						&lt;style><br>
+							div [class|="col"] {background-color:#EBDEF0; border:0.5px solid purple}<br>
+						&lt;/style><br>
+						&lt;/head><br>
+						&lt;body><br>
+						&lt;div class="container"><br>
+						&lt;div class="row"><br>
+							&lt;div class="col-sm-8 col-sm-push-4">區塊1&lt;/div><br>
+							&lt;div class="col-sm-4 col-sm-pull-8">區塊2&lt;/div><br>
+						&lt;/div><br>
+						&lt;/div><br>
+						&lt;/body>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>使用.coll-*-push-*類別將column向後推</p>
+						<p>使用.coll-*-pull-*類別將column往前拉</p>
+						<p>設定區塊1占用8個column且向後推4個column</p>
+						<p>設定區塊2占用4個column且往前拉8個column</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="12" style="font-weight:700; font-family: 'Noto Serif TC', serif;">網頁主體</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+							<p class="lead">床前明月光，疑是地上霜</p>
+							<p>舉頭望明月，低頭思故鄉</p>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;p class="lead">床前明月光，疑是地上霜&lt;/p><br>
+							&lt;p>舉頭望明月，低頭思故鄉&lt;/p><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>加上.lead類別強調此段落</p>
+						<p>一般的段落</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="13" style="font-weight:700; font-family: 'Noto Serif TC', serif;">對齊類別</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<p class="text-left">文字靠左對齊</p>
+						<p class="text-center">文字置中</p>
+						<p class="text-right">文字靠右對齊</p>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;p class="text-left">文字靠左對齊&lt;/p><br>
+							&lt;p class="text-center">文字置中&lt;/p><br>
+							&lt;p class="text-right">文字靠右對齊&lt;/p><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>靠左對齊</p>
+						<p>置中</p>
+						<p>靠右對齊</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="14" style="font-weight:700; font-family: 'Noto Serif TC', serif;">轉換類別</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<p class="text-lowercase">Twinkle, twinkle, little, star.</p>
+						<p class="text-uppercase">Twinkle, twinkle, little, star.</p>
+						<p class="text-capitalize">Twinkle, twinkle, little, star.</p>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;p class="text-lowercase">Twinkle, twinkle, little, star.&lt;/p><br>
+							&lt;p class="text-uppercase">Twinkle, twinkle, little, star.&lt;/p><br>
+							&lt;p class="text-capitalize">Twinkle, twinkle, little, star.&lt;/p><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>全部小寫</p>
+						<p>全部大寫</p>
+						<p>首字大寫</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="15" style="font-weight:700; font-family: 'Noto Serif TC', serif;">響應式圖片</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<img src="images\img6.jpg" class="img-responsive" alt="東京迪士尼">
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;img src="images\img6.jpg" class="img-responsive" alt="東京迪士尼"><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>.img-responsive類別</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="16" style="font-weight:700; font-family: 'Noto Serif TC', serif;">圖片形狀</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<img src="images\img6.jpg" width="32%" class="img-rounded" alt="圓角圖片">
+						<img src="images\img6.jpg" width="32%" class="img-circle" alt="圓形圖片">
+						<img src="images\img6.jpg" width="32%" class="img-img-thumbnail" alt="縮圖圖片">
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;img src="images\img6.jpg" width="32%" class="img-rounded" alt="圓角圖片"><br>
+							&lt;img src="images\img6.jpg" width="32%" class="img-circle" alt="圓形圖片"><br>
+							&lt;img src="images\img6.jpg" width="32%" class="img-img-thumbnail" alt="縮圖圖片"><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>圓角圖片</p>
+						<p>圓形圖片</p>
+						<p>縮圖圖片</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="17" style="font-weight:700; font-family: 'Noto Serif TC', serif;">特定意義色彩類別</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>編號</th>
+									<th>姓名</th> 
+								</tr>
+							</thead>		
+							<tbody>
+								<tr class="active">
+									<td>01</td>
+									<td>小丸子</td>
+								</tr>		
+								<tr class="success">
+									<td>02</td>
+									<td>小玉</td>
+								</tr>
+								<tr class="info">
+									<td>03</td>
+									<td>花輪</td>
+								</tr>
+								<tr class="warning">
+									<td>04</td>
+									<td>丸尾</td>
+								</tr>
+								<tr class="danger">
+									<td>04</td>
+									<td>丸尾</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;table class="table table-hover"><br>
+							&lt;thead><br>
+								&lt;tr><br>
+									&lt;th>編號&lt;/th><br>
+									&lt;th>姓名&lt;/th> <br>
+								&lt;/tr><br>
+							&lt;/thead><br>
+							&lt;tbody><br>
+								&lt;tr class="active"><br>
+									&lt;td>01&lt;/td><br>
+									&lt;td>小丸子&lt;/td><br>
+								&lt;/tr><br>
+								&lt;tr class="success"><br>
+									&lt;td>02&lt;/td><br>
+									&lt;td>小玉&lt;/td><br>
+								&lt;/tr><br>
+								&lt;tr class="info"><br>
+									&lt;td>03&lt;/td><br>
+									&lt;td>花輪&lt;/td><br>
+								&lt;/tr><br>
+								&lt;tr class="warning"><br>
+									&lt;td>04&lt;/td><br>
+									&lt;td>丸尾&lt;/td><br>
+								&lt;/tr><br>
+								&lt;tr class="danger"><br>
+									&lt;td>04&lt;/td><br>
+									&lt;td>丸尾&lt;/td><br>
+								&lt;/tr><br>
+							&lt;/tbody><br>
+						&lt;/table><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>將列或儲存格顯示為灰色，表示啟用</p>
+						<p>將列或儲存格顯示為綠色，表示成功或正面意義</p>
+						<p>將列或儲存格顯示為藍色，表示提供訊息</p>
+						<p>將列或儲存格顯示為綠色，表示警告</p>
+						<p>將列或儲存格顯示為紅色，表示危險</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="18" style="font-weight:700; font-family: 'Noto Serif TC', serif;">響應式表格</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<table class="table">	    
+							<tr>
+								<th>編號</th>
+								<th>姓名</th> 
+							</tr>
+							<tr>
+								<td>01</td>
+								<td>小丸子(個性無厘頭、樂觀的小女孩)</td>
+							</tr>		
+							<tr>
+								<td>02</td>
+								<td>小玉(小丸子的好朋友、個性文靜善良)</td>
+							</tr>
+							<tr>
+								<td>03</td>
+								<td>花輪(有錢人家的少爺、個性大方多才多藝)</td>
+							</tr>
+							<tr>
+								<td>04</td>
+								<td>丸尾(小丸子的同學、最大的願望是當班長)</td>
+							</tr>		  
+						</table>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container table-responsive"><br>
+							&lt;table class="table"><br>    
+							&lt;tr><br>
+								&lt;th>編號&lt;/th><br>
+								&lt;th>姓名&lt;/th><br>
+							&lt;/tr><br>
+							&lt;tr><br>
+								&lt;td>01&lt;/td><br>
+								&lt;td>小丸子(個性無厘頭、樂觀的小女孩)&lt;/td><br>
+							&lt;/tr><br>
+							&lt;tr><br>
+								&lt;td>02&lt;/td><br>
+								&lt;td>小玉(小丸子的好朋友、個性文靜善良)&lt;/td><br>
+							&lt;/tr><br>
+							&lt;tr><br>
+								&lt;td>03&lt;/td><br>
+								&lt;td>花輪(有錢人家的少爺、個性大方多才多藝)&lt;/td><br>
+							&lt;/tr><br>
+							&lt;tr><br>
+								&lt;td>04&lt;/td><br>
+								&lt;td>丸尾(小丸子的同學、最大的願望是當班長)&lt;/td><br>
+							&lt;/tr><br>
+						&lt;/table><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>.table-responsive類別</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="19" style="font-weight:700; font-family: 'Noto Serif TC', serif;">基本表單</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<form>
+							<div class="form-group">
+								<label for="userEmail">電子郵件</label>
+								<input type="email" class="form-control" id="userEmail">
+							</div>
+							<div class="form-group">
+								<label for="userPWD">密碼</label>
+								<input type="password" class="form-control" id="userPWD">
+							</div>
+							<button type="submit" class="btn btn-default">送出</button>
+						</form>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;form><br>
+							&lt;div class="form-group"><br>
+								&lt;label for="userEmail">電子郵件&lt;/label><br>
+								&lt;input type="email" class="form-control" id="userEmail"><br>
+							&lt;/div><br>
+							&lt;div class="form-group"><br>
+								&lt;label for="userPWD">密碼&lt;/label><br>
+								&lt;input type="password" class="form-control" id="userPWD"><br>
+							&lt;/div><br>
+							&lt;button type="submit" class="btn btn-default">送出&lt;/button><br>
+						&lt;/form><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>.form-control類別，預設寬度100%</p>
+						<p>.form-group類別，以達到最佳的視覺效果</p>
+					</div>
+				<hr>
+				<div class="bd-example">
+					<h3 id="20" style="font-weight:700; font-family: 'Noto Serif TC', serif;">基本表單</h3>
+					<div style="border:solid purple thin; padding:1% 5%">
+					<div>
+						<form>
+							<div class="form-group">
+								<label for="userEmail">電子郵件</label>
+								<input type="email" class="form-control" id="userEmail">
+							</div>
+							<div class="form-group">
+								<label for="userPWD">密碼</label>
+								<input type="password" class="form-control" id="userPWD">
+							</div>
+							<button type="submit" class="btn btn-default">送出</button>
+						</form>
+					</div>
+					</div>
+					<div>
+						&lt;div class="container"><br>
+							&lt;form><br>
+							&lt;div class="form-group"><br>
+								&lt;label for="userEmail">電子郵件&lt;/label><br>
+								&lt;input type="email" class="form-control" id="userEmail"><br>
+							&lt;/div><br>
+							&lt;div class="form-group"><br>
+								&lt;label for="userPWD">密碼&lt;/label><br>
+								&lt;input type="password" class="form-control" id="userPWD"><br>
+							&lt;/div><br>
+							&lt;button type="submit" class="btn btn-default">送出&lt;/button><br>
+						&lt;/form><br>
+						&lt;/div>
+					</div>
+				</div>
+					<div style="background:white; color:blue">
+						<p>.form-control類別，預設寬度100%</p>
+						<p>.form-group類別，以達到最佳的視覺效果</p>
+					</div>
+				</div>
+			</article>
+			<!--側邊欄-->
+			<aside>
+				<div class="col-sm-3 col-sm-pull-8">
+					<!--第一個面板-->
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h3>常用的CSS屬性</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="#1">linear-gradient()線性漸層、radial-gradient()放射狀漸層</a></p>
+							<p><a href="#2">邊界、留白、框線屬性</a></p>
+							<p><a href="#3">文繞圖屬性</a></p>
+							<p><a href="#4">垂質對齊屬性</a></p>
+							<p><a href="#5">Box陰影屬性</a></p>
+						</div>
+					</div>
+					<!--第二個面板-->
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3>Bootstrap 網格系統</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="#6">Bootstrap 網頁的架構</a></p>
+							<p><a href="#7">網格系統</a></p>
+							<p><a href="#8">設定容器類別</a></p>
+							<p><a href="#9">設定電腦、平板與手機的網頁版面</a></p>
+							<p><a href="#10">調整column的位移</a></p>
+							<p><a href="#11">調整column的順序</a></p>
+						</div>
+					</div>
+					<!--第三個面板-->
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3>Bootstrap CSS樣式</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="#12">網頁主體</a></p>
+							<p><a href="#13">對齊類別</a></p>
+							<p><a href="#14">轉換類別</a></p>
+							<p><a href="#15">響應式圖片</a></p>
+							<p><a href="#16">圖片形狀</a></p>
+							<p><a href="#17">特定意義色彩類別</a></p>
+							<p><a href="#18">響應式表格</a></p>
+							<p><a href="#19">基本表單</a></p>
+						</div>
+					</div>
+							
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+	
+  <!--頁尾-->
+		<footer>
+			<div class="container" style="color:white">
+				<p>&copy; 2020 Blog&middot;<a href="#">隱私權條款</a>&middot;<a href="#">服務條款</a></p>
+				<p class="text-center"><a href="bootstrapclass.html"><mark>Back to top</mark></a></p>
+			</div>
+		</footer>				
+
+  </body>
+</html>

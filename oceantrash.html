@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>海廢圖鑑</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+		<style>
+			body {background-image:url(images/oceantrash.jpg); background-attachment:scroll}
+			h1 {font-family: 'Noto Serif TC', serif; }
+			h2 {font-family: 'Noto Serif TC', serif;}
+			h3 {font-family: 'Noto Serif TC', serif;}
+			span {font-family: 'Noto Serif TC', serif;}
+			p {font-family: 'Noto Serif TC', serif;}
+			label {font-family: 'Noto Serif TC', serif;}
+			a:hover {color:purple}
+		</style>
+		
+  </head>
+  <body>
+		<nav class="navbar navbar-inverse navbar-expand-md fixed-top"><!--<nav class="navbar navbar-default">-->
+			<div class="container-fluid">
+				<div class="nabvar-header">
+				<a class="navbar-brand" href="index.html">Blog</a>
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">導覽按鈕</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="ative"><a href="index.html">首頁</a></li>
+						<li class="dropdown">
+							<a href="post.html" class="dropdown-toggle" data-toggle="dropdown" role="button">貼文
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="oceantrash.html">想推薦之網頁</a></li>
+								<li><a href="bootstrapclass.html">Bootstrapd課程內容</a></li>
+								<li><a href="club.html">社團活動</a></li>
+								<li><a href="https://6100677.wixsite.com/my-site-3">懷舊復古</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">關於</a></li>
+						<li><a href="contact.html">聯絡</a></li>
+					</ul>
+					
+					<form class="navbar-form navbar-right">
+						<div class="form-group has-feedback">
+							<input type="search" class="form-control" placeholder="輸入關鍵字"><span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+						<button type="submit" class="btn btn-outline-success">搜尋</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		
+		<!--頁首-->
+		<header>
+			<div class="container" style="background:white; padding:1% 5%">
+				<h1><a href="http://oceantrash.rethinktw.org/zh-TW"><strong>海廢圖鑑</strong></a></h1>
+          <p class="lead">
+						台灣第一本海洋廢棄物百科	<br>
+						我想要推薦之網頁
+					</p>
+				<hr>
+			</div>
+			
+		</header>
+		
+		<!--內容區-->
+		<div class="container"   style="background:white; padding:1% 5%">
+			<!--導覽元件-->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab">海廢圖鑑</a></li>
+				<li><a href="#tab2" data-toggle="tab">關於我們</a></li>
+				<li><a href="#tab3" data-toggle="tab">海廢從哪來</a></li>
+				<li><a href="#tab4" data-toggle="tab">海廢大挑戰</a></li>
+				<li><a href="#tab5" data-toggle="tab">地圖模式</a></li>
+				<li><a href="#tab6" data-toggle="tab">為何成為我想推薦之網站</a></li>
+			</ul>
+			
+			<!--標籤頁外掛-->
+			<div class="tab-content">
+				<div class="tab-pane fade in active" id="tab1">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">首頁</mark></strong></h1>
+						<p class="lead" style="text-align:center; color:purple">
+							各式各樣的海廢們以及相關資訊。
+						</p>
+							<img src="images/oceantrash/home.jpg" width="100%" style="float:both">						
+							<p><span class="glyphicon glyphicon-triangle-top"></span></a>一進來網頁會看到<mark>導覽列</mark>，依序是海廢圖鑑、關於我們、海廢從哪來、海廢大挑戰、報名淨灘、捐款以及切換中英文的功能。</p>
+							<img src="images/oceantrash/homedropdown.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>下面是<mark>.option-bar(選項欄)</mark>類別的<mark>下拉式功能。</mark></p>
+							<p>每個連結基本都套用<mark>:hover</mark>虛擬類別選擇器。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/homefooter.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>最左邊的<mark>進度條</mark>，會隨著使用者往下拉而增加。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/homephone.jpg" width="50%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>在手機模式上，可以知道它有使用<mark>響應式網頁。</mark></p>
+					</div>
+					<div>
+						<video src="images/oceantrash/rubberduck.mp4" autoplay loop controls width="100%"></video>
+							<p><span class="glyphicon glyphicon-triangle-top"></span>以黃色小鴨為例，小鴨會隨著<mark>下拉時變換方向</mark>，以童趣的卡牌模式，引起使用者的興趣。</p>
+					</div>
+					
+				</div>
+				
+				<div class="tab-pane fade" id="tab2">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">關於</mark></strong></h1>
+						<p class="lead" style="text-align:center; color:purple">
+							製作海廢之理念、了解相關機構。
+						</p>
+						<img src="images/oceantrash/about.png" width="100%" style="float:both">
+					</div>
+					<div>
+						<img src="images/oceantrash/aboutbody.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>CONTACT US、FOLLOW US使用<mark>按鈕功能</mark>，皆有套用<mark>:hover</mark>功能。</p>
+							<P>CONTACT US使用<mark>.column-right</mark>類別、FOLLOW US使用<mark>.column-left</mark>類別。</P>
+					</div>
+					<div>
+						<img src="images/oceantrash/aboutfooter.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>後面接著是贊助單位，背景使用灰色，文字使用<mark>&lt;b>粗體</mark>、<mark>&lt;blockquote>元素(左右縮排的區塊)</mark>。</p>
+							<p></p>
+							<p></p>
+					</div>
+				</div>
+				
+				<div class="tab-pane fade" id="tab3">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">海廢從哪來</mark></strong></h1>
+						<p class="lead" style="text-align:center; color:purple">
+							認識海廢從哪來及其影響，重新思考該怎麼辦。
+						</p>
+						<img src="images/oceantrash/where.jpg" width="100%" style="float:both">
+							<p></p>
+							<p></p>
+							<p></p>
+					</div>
+					<div>
+						<img src="images/oceantrash/where01.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>我從哪來的對話框，使用<mark>.bubble</mark>的類別，會隨時間循環消失又冒出。</p>
+						<img src="images/oceantrash/wherehover.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>套用<mark>:hover</mark>的功能，變換成像眼睛的樣子。</p>
+						<img src="images/oceantrash/wheremodal.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>點選後，會有<mark>互動式窗(modal)</mark>，點取Back會關閉視窗。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/where02.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>a 生物誤食或纏繞致死、b 環境髒亂、c 影響海洋生態，使用<mark>分頁導覽(pagination)</mark>，其中a 生物誤食或纏繞致死使用<mark>.active</mark>為啟用頁數。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/where03.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>重新思考、少用一點、尋找替代品皆使用<mark>&lt;b>粗體</mark>，內容使用<mark>&lt;blockquote>元素(左右縮排的區塊)</mark>、<mark>文繞圖屬性(float)</mark>，最後一段使用<mark>清除文繞圖屬性(clear)。<mark>。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/wherefooter.png" width="100%" style="float:both">
+					</div>
+				</div>
+				
+				<div class="tab-pane fade" id="tab4">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">海廢大挑戰</mark></strong></h1>
+						<p class="lead" style="text-align:center; color:purple">
+							藉由遊戲的方式，讓大家更了解海廢的種類。
+						</p>
+						<img src="images/oceantrash/challenge.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>圖片使用svg檔，畫質不會變差，圖片會動增加趣味性；PLAY套用<mark>:hover</mark>的功能。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/challengeround1.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>進入遊戲後，右側的選項皆有套用<mark>:hover</mark>的功能。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/challengeround1success.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>答對時，選項套用<mark>.bubble</mark>的類別顯示為綠色，表示為成功。(還有顏文字有夠可愛><)</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/challengeround1wrong.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>答錯時，選項套用<mark>.bubble</mark>顯示為紅色，表示為錯誤。</p>
+						<img src="images/oceantrash/challengeround1wrongagain.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>如果繼續答錯會選項不會恢復，會停留為紅色。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/challengeresult1.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>完成挑戰會獲得新稱號，可以繼續挑戰或分享。</p>
+					</div>
+				</div>
+				
+				<div class="tab-pane fade" id="tab5">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">地圖</mark></strong></h1>
+						<img src="images/oceantrash/map.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>從首頁切換至地圖模式，使用<mark>按鈕(button).switch類別</mark>、<mark>Javascript</mark>效果</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/area.png" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>點取任一小海廢(monster)，綠色的線條會跑到對應的海岸。</p>
+							<p>點取查看地區海廢使用<mark>&lt;button></mark>元素定義觸發互動視窗的按鈕，加上<mark>.modal</mark>類別定義互動視窗。</p>
+					</div>
+					<div>
+						<img src="images/oceantrash/areadetail.jpg" width="100%" style="float:both">
+						<img src="images/oceantrash/northareadetail.jpg" width="100%" style="float:both">
+							<p><span class="glyphicon glyphicon-triangle-top"></span>隨著點取地區不同，地圖會跑到對應的地區。</p>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="tab6">
+					<div>
+						<h1 style="text-align:center"><strong><mark style="color:purple">為何成為我想推薦之網站</mark></strong></h1>
+						<p class="lead" style="text-align:center; color:purple">
+							以下為為何選擇這個網站、架構及內容說明、優點及缺點。
+						</p>
+					</div>
+					<div class="panel-group" id="1">
+						<div class="panel">
+							<div class="panel-heading">
+								<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse1" data-toggle="collapse" data-parent="#1">為何選擇這個網站</a></h2>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p style="text-align:center">
+										有次看一個Youtube頻道志祺七七，忘記是哪一支影片了，<br>
+										提到一個將廢棄物變成玩具博物館的互動式網站。<br>
+										設計概念以遊玩的樂趣，打破人們對海洋保育的沈重與無力感，<br>
+										發揮童心盡情地探索、用不一樣的目光重新審視所謂的海廢究竟是什麼？<br>
+										了解它從哪裡來、又將往哪裡去？對我們的生活帶來什麼影響？<br>
+										而引起我的興趣，進入網站後覺得製作精美用心，又同時帶有教育意義，所以想要推薦它。
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse2" data-toggle="collapse" data-parent="#2">架構及內容說明</a></h2>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p style="text-align:center">
+										網站為響應式網站，導覽列有七個連結分別為<br>
+										主頁(海廢圖鑑)、關於我們、海廢從哪來、海廢大挑戰、報名淨灘、捐款、切中英文。<br>
+										<mark>主頁</mark>的下拉式選單為種類、材質、常見度，畫面左側有個像是進度條功能，<br>
+										隨著畫面往下，海廢種類、數字跟著增加，<br>
+										畫面右側可以分享至Facebook或line。<br>
+										點取任意海廢可觀看更詳細的內容，隨著畫面下拉海廢會變換方向，<br>
+										從左旁的說明欄可以得知它的HP、類別、材質、出沒地、常見度、還可以分享到社群。<br>
+										最下面有相似海廢可以查看、報名淨灘以及捐款支持的連結。<br>
+										<mark>關於我們</mark>是把內容放到column(欄))中，再靠左或靠右排列，<br>
+										下方皆有按鈕功能的連結，最下方有贊助單位的相關資訊。<br>
+										<mark>海廢從哪來</mark>由三個column組成，分別為海廢你是從哪來、海洋廢棄物造成的影響、我該怎麼辦。<br>
+										海廢你從哪來內容有文字圖片、圖片有hover的效果，還有我們沒教到的bubble，<br>
+										海洋廢棄物造成的影響套用分頁導覽的功能，<br>
+										我該怎麼辦使用三個column組成。<br>
+										<mark>海廢大挑戰</mark>PLAY使用按鈕功能、套用hover的效果，點取後進入挑戰，<br>
+										畫面中圖片放左側，選項使用按鈕功能、也套用hover的效果，<br>
+										如果答對，選項套用hover的效果顯示為綠色，表示為成功；答錯，則顯示為紅色，表示錯誤，<br>
+										答對、答錯皆使用bubble類別的顏文字。<br>
+										ROUND1成功的話，會獲得稱號，可繼續挑戰或分享至社群。<br>
+										<mark>地圖模式</mark>使用按鈕的元素、switch的類別、Javascript的效果，<br>
+										在主頁時可切換成地圖模式，進入畫面可看見一直上下跳動的動畫，以及台灣海岸分布，<br>
+										可點選海廢們或海岸地區，會進入互動視窗，可點取查看地區海廢以查看詳細內容。<br>
+										<mark>報名淨灘</mark>連結至RE-THINK重新思考臉書粉絲專頁。<br>
+										<mark>捐款</mark>連結至RE-THINK重新思考的捐款網站。
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse3" data-toggle="collapse" data-parent="#3">優點</a></h2>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p style="text-align:center">
+										整體畫面、排版讓人看得舒服，在內容呈現上新穎、趣味性十足，富有教育意義的優質網站。
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<h2 class="panel-title" style="text-align:center; font-size:24px"><a href="#collapse4" data-toggle="collapse" data-parent="#4">缺點</a></h2>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p style="text-align:center">
+										基本上我覺得沒什麼缺點，<br>
+										硬要說就是在瀏覽關於我們及海廢從哪來的頁面時，<br>
+										圖片有被像裁到的部分，以及在下拉畫面再往上時，<br>
+										導覽列混在圖片裡有點雜亂，<br>
+										但基本我覺得這些並不會造成多差的觀感體驗，<br>
+										所以有點雞蛋裡挑骨頭了。
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<nav><center>
+					<ul class="pagination">
+						<li><a href="#" aria-label="Previous"><span>&laquo;</span></a></li>
+						<li class="active"><a href="#tab1">1</a></li>
+						<li><a href="#tab2">2</a></li>
+						<li><a href="#tab3">3</a></li>
+						<li><a href="#tab4">4</a></li>
+						<li><a href="#tab5">5</a></li>
+						<li><a href="#" aria-label="Next"><span>&raquo;</span></a></li>
+					</ul>
+			</nav>
+			
+		</div>
+		
+		<!--頁尾-->
+		<footer>
+			<div class="container" style="color:black">
+			
+				<p>&copy; 2020 Blog&middot;<a href="#">隱私權條款</a>&middot;<a href="#">服務條款</a></p>
+				
+			</div>
+		</footer>	
+		
+		<p class="text-center"><a href="oceantrash.html"><mark>Back to top</mark></a></p>
+  </body>
+</html>
