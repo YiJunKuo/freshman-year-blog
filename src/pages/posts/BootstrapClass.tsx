@@ -78,22 +78,22 @@ export default function BootstrapClass() {
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                   <h3 className="font-bold text-slate-900 mb-2">紅豆</h3>
                   <p className="text-sm text-slate-600 mb-4">排版練習與樣式應用</p>
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/BS2.jpg" alt="紅豆" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/BS2.jpg" alt="紅豆" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
                 </div>
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                   <h3 className="font-bold text-slate-900 mb-2">白水先生作品</h3>
                   <p className="text-sm text-slate-600 mb-4">綜合版面配置練習</p>
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/BS4.jpg" alt="白水先生作品" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/BS4.jpg" alt="白水先生作品" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
                 </div>
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                   <h3 className="font-bold text-slate-900 mb-2">送別</h3>
                   <p className="text-sm text-slate-600 mb-4">文字排版與色彩運用</p>
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/BS5.jpg" alt="送別" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/BS5.jpg" alt="送別" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
                 </div>
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                   <h3 className="font-bold text-slate-900 mb-2">迪士尼</h3>
                   <p className="text-sm text-slate-600 mb-4">網格系統與圖片應用</p>
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/disney.jpg" alt="迪士尼" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/disney.jpg" alt="迪士尼" className="rounded-lg w-full h-auto" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </section>

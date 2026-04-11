@@ -52,23 +52,23 @@ export default function OceanTrash() {
               <ul className="list-disc list-inside text-slate-600 space-y-6">
                 <li>
                   <strong>首頁：</strong> 吸引人的視覺設計，帶領使用者進入海廢的世界。
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/home.jpg" alt="首頁" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/oceantrash/home.jpg" alt="首頁" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
                 </li>
                 <li>
                   <strong>關於：</strong> 介紹計畫的初衷與團隊。
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/about.png" alt="關於" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/oceantrash/about.png" alt="關於" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
                 </li>
                 <li>
                   <strong>海廢從哪來：</strong> 追溯海洋廢棄物的源頭。
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/where.jpg" alt="海廢從哪來" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/oceantrash/where.jpg" alt="海廢從哪來" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
                 </li>
                 <li>
                   <strong>海廢大挑戰：</strong> 透過互動遊戲讓使用者更了解海廢知識。
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/challenge.jpg" alt="海廢大挑戰" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/oceantrash/challenge.jpg" alt="海廢大挑戰" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
                 </li>
                 <li>
                   <strong>地圖：</strong> 標示出各地海廢的分佈情況。
-                  <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/map.png" alt="地圖" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
+                  <img src="/freshman-year-blog/images/oceantrash/map.png" alt="地圖" className="mt-2 rounded-lg w-full h-auto border border-slate-200" referrerPolicy="no-referrer" />
                 </li>
               </ul>
             </div>
@@ -77,7 +77,7 @@ export default function OceanTrash() {
               <h3 className="text-xl font-bold mb-3 text-slate-900">黃色小鴨影片</h3>
               <div className="rounded-xl overflow-hidden bg-slate-100">
                 <video controls className="w-full">
-                  <source src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/oceantrash/rubberduck.mp4" type="video/mp4" />
+                  <source src="/freshman-year-blog/images/oceantrash/rubberduck.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

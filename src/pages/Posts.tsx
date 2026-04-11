@@ -11,7 +11,7 @@ export default function Posts() {
       path: "/posts/ocean-trash",
       category: "推薦",
       date: "2020-10-15",
-      image: "https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/post1.gif"
+      image: "/freshman-year-blog/images/post1.gif"
     },
     {
       id: "bootstrap-class",
@@ -20,7 +20,7 @@ export default function Posts() {
       path: "/posts/bootstrap-class",
       category: "學習",
       date: "2020-11-20",
-      image: "https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/post2.gif"
+      image: "/freshman-year-blog/images/post2.gif"
     },
     {
       id: "club",
@@ -29,7 +29,7 @@ export default function Posts() {
       path: "/posts/club",
       category: "生活",
       date: "2020-12-05",
-      image: "https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/post3.gif"
+      image: "/freshman-year-blog/images/post3.gif"
     },
     {
       id: "nostalgia",
@@ -39,7 +39,7 @@ export default function Posts() {
       category: "回憶",
       date: "2020-12-25",
       external: true,
-      image: "https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/post4.gif"
+      image: "/freshman-year-blog/images/post4.gif"
     }
   ];
 
