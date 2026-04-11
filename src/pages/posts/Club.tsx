@@ -53,8 +53,8 @@ export default function Club() {
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/boss1.jpg" alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/boss2.jpg" alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/boss1.jpg" alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/boss2.jpg" alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -79,8 +79,8 @@ export default function Club() {
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/boss3.jpg" alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/boss4.jpg" alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/boss3.jpg" alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/boss4.jpg" alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -105,8 +105,8 @@ export default function Club() {
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/sogo.jpg" alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/group.jpg" alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/sogo.jpg" alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/group.jpg" alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function Club() {
                     </video>
                   </div>
                   <div className="rounded-xl overflow-hidden">
-                    <img src="https://yijunkuo.github.io/freshman-year-blog/images/boss5.jpg" alt="聖誕演唱會" className="w-full h-48 object-cover" referrerPolicy="no-referrer" />
+                    <img src="https://raw.githubusercontent.com/YiJunKuo/freshman-year-blog/main/images/boss5.jpg" alt="聖誕演唱會" className="w-full h-48 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
