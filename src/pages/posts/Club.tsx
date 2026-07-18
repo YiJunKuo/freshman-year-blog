@@ -48,13 +48,13 @@ export default function Club() {
                   </p>
                   <div className="rounded-xl overflow-hidden bg-slate-100 mb-4">
                     <video controls className="w-full">
-                      <source src={`${import.meta.env.BASE_URL}images/1208.mp4`} type="video/mp4" />
+                      <source src={`/images/1208.mp4`} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src={`${import.meta.env.BASE_URL}images/boss1.jpg`} alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src={`${import.meta.env.BASE_URL}images/boss2.jpg`} alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/boss1.jpg`} alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/boss2.jpg`} alt="BOSS 第一次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -74,13 +74,13 @@ export default function Club() {
                   </p>
                   <div className="rounded-xl overflow-hidden bg-slate-100 mb-4">
                     <video controls className="w-full">
-                      <source src={`${import.meta.env.BASE_URL}images/1216.mp4`} type="video/mp4" />
+                      <source src={`/images/1216.mp4`} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src={`${import.meta.env.BASE_URL}images/boss3.jpg`} alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src={`${import.meta.env.BASE_URL}images/boss4.jpg`} alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/boss3.jpg`} alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/boss4.jpg`} alt="BOSS 第二次驗收" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -100,13 +100,13 @@ export default function Club() {
                   </p>
                   <div className="rounded-xl overflow-hidden bg-slate-100 mb-4">
                     <video controls className="w-full">
-                      <source src={`${import.meta.env.BASE_URL}images/1216_.mp4`} type="video/mp4" />
+                      <source src={`/images/1216_.mp4`} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
-                    <img src={`${import.meta.env.BASE_URL}images/sogo.jpg`} alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
-                    <img src={`${import.meta.env.BASE_URL}images/group.jpg`} alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/sogo.jpg`} alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/group.jpg`} alt="HOW YOU LIKE THAT" className="rounded-lg w-full h-32 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -126,12 +126,12 @@ export default function Club() {
                   </p>
                   <div className="rounded-xl overflow-hidden bg-slate-800 mb-4">
                     <video controls className="w-full">
-                      <source src={`${import.meta.env.BASE_URL}images/1223.mp4`} type="video/mp4" />
+                      <source src={`/images/1223.mp4`} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div className="rounded-xl overflow-hidden">
-                    <img src={`${import.meta.env.BASE_URL}images/boss5.jpg`} alt="聖誕演唱會" className="w-full h-48 object-cover" referrerPolicy="no-referrer" />
+                    <img src={`/images/boss5.jpg`} alt="聖誕演唱會" className="w-full h-48 object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>

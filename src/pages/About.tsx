@@ -33,7 +33,7 @@ export default function About() {
         </p>
 
         <div className="mb-12 rounded-2xl overflow-hidden shadow-sm border border-slate-100">
-          <img src={`${import.meta.env.BASE_URL}images/post5.jpg`} alt="關於我的網站" className="w-full h-auto object-cover" referrerPolicy="no-referrer" />
+          <img src={`/images/post5.jpg`} alt="關於我的網站" className="w-full h-auto object-cover" referrerPolicy="no-referrer" />
         </div>
 
         <div className="space-y-8">
